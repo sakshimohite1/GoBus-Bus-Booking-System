@@ -1,0 +1,131 @@
+/* Center the Auth box */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f8f9fa;
+  position: relative;
+}
+
+/* Success Popup */
+.success-popup {
+  position: absolute;
+  top: 20px;
+  background: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease, fadeOut 0.5s ease 2.5s;
+}
+
+/* Success Icon */
+.success-icon {
+  font-size: 18px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* Auth Box */
+.auth-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+}
+
+/* Input field groups */
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  padding: 8px;
+  outline: none;
+}
+
+.icon {
+  color: #888;
+  margin-right: 10px;
+}
+
+/* Auth Button */
+button {
+  background: #d84e55;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #b83a45;
+}
+
+/* Success & Error Messages */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.message:nth-child(1) {
+  color: green;
+}
+
+.message:nth-child(2) {
+  color: red;
+}
+
+/* Toggle between Login & Signup */
+.toggle-auth {
+  margin-top: 10px;
+  color: #d84e55;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.toggle-auth:hover {
+  text-decoration: underline;
+}

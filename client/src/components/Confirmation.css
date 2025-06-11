@@ -1,0 +1,35 @@
+.confirmation-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .booking-details p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .download-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .download-btn:hover {
+    background: #218838;
+  }
+  

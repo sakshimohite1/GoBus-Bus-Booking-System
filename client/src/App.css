@@ -1,0 +1,11 @@
+.page-container {
+    margin-top: 80px; /* ✅ Ensures space between Navbar & Content */
+    margin-bottom: 50px; /* ✅ Space before Footer */
+    padding: 20px;
+  }
+  
+  body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+  }
+  

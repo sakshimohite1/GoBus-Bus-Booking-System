@@ -1,0 +1,21 @@
+.why-choose {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature-box {
+    background: #d32f2f;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+  }
+  

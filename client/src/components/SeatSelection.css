@@ -1,0 +1,94 @@
+.seats-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.seat-legend {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.seat-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.seat-row {
+  display: flex;
+  gap: 8px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.unavailable {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.male {
+  background-color: #3498db;
+  color: white;
+}
+
+.female {
+  background-color: #e91e63;
+  color: white;
+}
+
+.selected {
+  background-color: #ff9800;
+  color: white;
+}
+
+.confirm-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.confirm-btn:hover {
+  background-color: #b71c1c;
+}
+
+.confirm-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.selected-seats {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
